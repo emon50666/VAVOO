@@ -1,3 +1,22 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.hero_bg_img {
+  background: url("./img/hero-bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wer-wir {
+  background-image: url("./img/about.jpeg");
+}
+ul li a {
+  color: #fff;
+}

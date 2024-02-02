@@ -1,1 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font asesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="src/main.css" />
+  </head>
+  <body>
+    <!-- header &  hero -->
+    <section class="header_hero">
+      <div class="hero_bg_img">
+        <div class="img-overly h-full bg-[#000000c2]">
+          <div class="container mx-auto px-5">
+            <header class="header flex justify-between py-8 px-10">
+              <a href="/" class="logo">
+                <img
+                  class="md:w-[132px] md:h-[45px]"
+                  src="./src/img/logo-text-vavoo.png"
+                  alt=""
+                />
+              </a>
 
+              <nav class="">
+                <button
+                  class="close-nav relative top-0 right-0 text-right text-3xl md:hidden"
+                >
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul class="md:flex">
+                  <li>
+                    <a
+                      class="px-5 uppercase text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                      href="#"
+                      >Start</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="px-5 uppercase text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                      href="#"
+                      >Bestellen</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                      href="#"
+                      >software</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                      href="#"
+                      >vavoo pro</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                      href="#"
+                      >support</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <button class="show-nav hidden text-3xl cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </header>
+            <div class="hero">
+              <div class="content mt-20 text-center">
+                <h5
+                  class="content_sub_title text-base text-[#fff] font-semibold tracking-[2px]"
+                >
+                  VAVOO MACHT DAS LEBEN EINFACH.
+                </h5>
+                <h1
+                  class="main_title text-[43px] font-semibold text-[#fff] tracking-[2px]"
+                >
+                  FILME & SERIEN
+                  <br />
+                  AM FERNSEHER GENIESSEN
+                </h1>
+                <div class="button flex flex-row justify-center text-[#fff]">
+                  <a
+                    class="border-2 uppercase py-2 px-5 text-[12px] font-semibold tracking-[2px] md:mr-5"
+                    href="#"
+                    >Mehr erfahren</a
+                  >
+                  <a
+                    class="border-2 uppercase py-2 px-5 text-[12px] font-semibold tracking-[2px] text-[#000] bg-[#fff]"
+                    href="#"
+                    >Bestellen</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VAVOO IST REVOLUTIONÄR section -->
+    <section class="container mx-auto mt-24">
+      <h1
+        class="px-4 text-[21px] text-main text-center font-semibold tracking-[4px] mb-7"
+      >
+        VAVOO IST REVOLUTIONÄR <span class="text-orange-500 text-2xl">.</span>
+      </h1>
+      <p
+        class="px-4 text-[15px] md:w-[700px] lg:w-[750px] lg:text-[18px] text-justify m-auto leading-7 text-gray-400"
+      >
+        VAVOO ermöglicht Dir Filme & Serien aus dem Internet, ohne Umwege, auf
+        Deinem Fernseher abzuspielen. Du benötigst keine weitere zusätzliche
+        Hardware. Durch die mitgelieferte Fernbedienung und unsere selbst
+        entwickelte Software, ist es nur noch ein Kinderspiel, das komplette
+        Repertoire zu durchstöbern. Mit wenigen Klicks gelangst Du zu dem
+        gewünschten Inhalt und kannst ihn sofort wiedergeben.
+      </p>
+      <div class="flex items-center justify-center mt-16 lg:mt-16">
+        <button
+          class="bg-black text-white hover:bg-[#323232] transition duration-700 font-bold py-2 px-4 mt-2 rounded uppercase"
+        >
+          <a href="#">Bestellen</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- vavoo section  -->
+    <section class="container mx-auto mt-24 mb-24">
+      <h1
+        class="px-4 text-[21px] text-main text-center font-semibold tracking-[4px] mb-7"
+      >
+        VAVOO <span class="text-orange-500 text-2xl">.</span>
+      </h1>
+      <div class="col-auto lg:grid grid-cols-2 mb-14 lg:px-20 pt-14">
+        <div class="lg:flex gap-14 mb-10 lg:mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-euro-sign"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              KEINERLEI MONATLICHE KOSTEN.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              Die eingeschränkte Nutzung von VAVOO ist komplett gratis. Du
+              zahlst einmalig für die Hardware. Das ist alles.
+            </p>
+          </div>
+        </div>
+        <div class="lg:flex gap-14 mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-plug"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              KEINE ZUSÄTZLICHE HARDWARE.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              Schalte Deinen Fernseher an und leg los. Ganz so, wie es sich
+              gehört. Kein PC, kein Smartphone. Du benötigst lediglich VAVOO um
+              die gewünschten Filme & Serien am Fernseher wiederzugeben.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto lg:grid grid-cols-2 mb-4 lg:px-20">
+        <div class="lg:flex gap-14 mb-10 lg:mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-child"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              DIE EINRICHTUNG IST KINDERLEICHT.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              Sobald Du VAVOO zum ersten Mal am Fernseher angeschlossen hast,
+              musst Du nur noch die Internetverbindung herstellen. Per WLAN oder
+              Kabel. VAVOO wird im Anschluss vollkommen automatisch eingerichtet
+              und ist danach sofort einsatzbereit.
+            </p>
+          </div>
+        </div>
+        <div class="lg:flex gap-14 mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-dot-circle"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              DIE BEDIENUNG, EIN KINDERSPIEL.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              Du musst Dich nicht erst mit der Fernbedienung vertraut machen.
+              Die Bedienung erfolgt durch einfache Pfeiltasten. Die
+              Fernbedienung ist selbstverständlich im Lieferumfang inbegriffen.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto lg:grid grid-cols-2 mb-4 lg:px-20 mt-14">
+        <div class="lg:flex gap-14 mb-10 lg:mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-paper-plane"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              HEUTE BESTELLT. MORGEN DA.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              Wir liefern Dir VAVOO bis zu Deiner Haustür. Deine Bestellung wird
+              umgehend bearbeitet und direkt am selben Tag per DHL-Express an
+              Dich verschickt
+            </p>
+          </div>
+        </div>
+        <div class="lg:flex gap-14 mb-4">
+          <div class="text-center mb-2 text-4xl font-bold text-[#323232]">
+            <i class="fa fa-gift"></i>
+          </div>
+          <div>
+            <h2
+              class="text-center lg:text-start text-[18px] text-[#323232] font-semibold leading-8 mb-3 tracking-[2px]"
+            >
+              GRATIS VERSAND.
+            </h2>
+            <p
+              class="text-justify px-4 lg:px-0 lg:text-start text-[16px] leading-7 text-gray-400 text[#323232]"
+            >
+              VAVOO wird zuverlässig und sicher durch DHL-Express verschickt.
+              Kostenlos
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- wer  wir sind section -->
+
+    <div class="bg-blend-hue relative">
+      <div class="wer-wir relative bg-no-repeat bg-cover bg-center bg-fixed">
+        <!-- Background Image -->
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+
+        <div class="text-center pt-12 pb-12 relative z-10">
+          <i class="fa fa-users text-white text-4xl"></i>
+          <h1
+            class="px-4 mt-4 text-[21px] text-main text-center text-white font-semibold tracking-[4px] mb-2"
+          >
+            WER WIR SIND <span class="text-orange-500 text-2xl">.</span>
+          </h1>
+          <p
+            class="text-white px-4 text-[15px] md:w-[700px] lg:w-[750px] lg:text-[18px] text-justify m-auto leading-7 tex-white"
+          >
+            Wir sind ein junges und innovatives Unternehmen mit dem Hang zu
+            modernsten Technologien. Wir haben es uns zur Aufgabe gemacht Deinen
+            Alltag zu erleichtern. Eine Vielzahl von Kunden hat dies bereits
+            erkannt und begeistert sich für unsere innovativen und erfolgreichen
+            Konzepte um sich auf das Wesentliche zu konzentrieren.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="px-20 pt-14 bg-[#f7f7f7]">
+      <div class="col-span-1 lg:grid grid-cols-4 gap-48">
+        <div class="text-center lg:text-start mb-5">
+          <img
+            src="./src/img/logo-text-dark-vavoo.png"
+            alt=""
+            class="w-[130px] m-auto lg:m-0"
+          />
+          <h5 class="text-base font-semibold mt-3">VAVOO AG</h5>
+          <p class="text-gray-500">
+            Morgartenstrasse 3 <br />
+            CH-6003 Luzern
+          </p>
+        </div>
+        <div class="list-none text-[14px] text-center mb-5 lg:text-start">
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">START</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">BESTELLEN</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">SOFTWARE</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">SUPPORT</a>
+          </li>
+        </div>
+        <div class="list-none text-[14px] text-center mb-5 lg:text-start">
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">VAVOO BUNDLE</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">JOBS</a>
+          </li>
+        </div>
+        <div class="list-none text-[14px] text-center mb-5 lg:text-start">
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">IMPRESSUM</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">AGB</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">LIEFERBEDINGUNGEN</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">DATENSCHUTZ</a>
+          </li>
+          <li class="mb-1 hover:text-[#e6ae49] transition duration-700">
+            <a href="#">RECHTLICHE HINWEISE</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- footer image section-->
+      <div class="col-auto lg:grid grid-rows-4 h-[40px]">
+        <div class="flex m-auto gap-4 md:justify-center">
+          <div class="w-[60px]">
+            <img src="./src/img/paypal.jpeg" alt="" class="w-[100px]" />
+          </div>
+          <div class="w-[60px]">
+            <img src="./src/img/ mastercard.jpeg" alt="" class="w-[100px]" />
+          </div>
+          <div class="w-[60px]">
+            <img src="./src/img/visa.jpeg" alt="" class="w-[100px]" />
+          </div>
+          <div class="w-[60px]">
+            <img
+              src="./src/img/americal-express.jpeg"
+              alt=""
+              class="w-[100px]"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- copyright section -->
+      <div class="border-t border-gray-200 mt-2 mb-2">
+        <p class="text-center text-gray-500 mt-4 text-[12px] lg:text-base">
+          © 2017 - 2018
+          <span class="text-[#323232] font-semibold">VAVOO AG.</span> All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
