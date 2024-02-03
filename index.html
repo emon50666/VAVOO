@@ -21,90 +21,156 @@
       <div class="hero_bg_img">
         <div class="img-overly h-full bg-[#000000c2]">
           <div class="container mx-auto px-5">
-            <header class="header flex justify-between py-8 px-10">
+            <header
+              class="header myHeader flex justify-between py-8 px-5 md:mt-0 mt-[-18px] md:px-10"
+            >
               <a href="/" class="logo">
                 <img
-                  class="md:w-[132px] md:h-[45px]"
+                  class="light_logo w-[96px] md:w-[132px] md:h-[45px]"
                   src="./src/img/logo-text-vavoo.png"
+                  alt=""
+                />
+                <img
+                  class="hidden dark_logo w-[96px] md:w-[132px] md:h-[45px]"
+                  src="./src/img/logo-text-dark-vavoo.png"
                   alt=""
                 />
               </a>
 
-              <nav class="">
-                <button
-                  class="close-nav relative top-0 right-0 text-right text-3xl md:hidden"
-                >
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
+              <nav class="hidden md:block">
                 <ul class="md:flex">
                   <li>
                     <a
-                      class="px-5 uppercase text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
-                      href="#"
+                      class="px-5 uppercase active  text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                      href="./index.html"
                       >Start</a
                     >
                   </li>
                   <li>
                     <a
-                      class="px-5 uppercase text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
-                      href="#"
+                      class="px-5 uppercase hover:text-orange-400 text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                      href="./bestellen.html"
                       >Bestellen</a
                     >
                   </li>
                   <li>
                     <a
-                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
-                      href="#"
+                      class="px-5 uppercase hover:text-orange-400 text-xs font-semibold tracking-[2px]"
+                      href="./software.html"
                       >software</a
                     >
                   </li>
                   <li>
                     <a
-                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
-                      href="#"
+                      class="px-5 uppercase hover:text-orange-400 text-xs font-semibold tracking-[2px]"
+                      href="./vavoo.html"
                       >vavoo pro</a
                     >
                   </li>
                   <li>
                     <a
-                      class="px-5 uppercase text-xs font-semibold tracking-[2px]"
-                      href="#"
+                      class="px-5 uppercase hover:text-orange-400 text-xs font-semibold tracking-[2px]"
+                      href="./support.html"
                       >support</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="px-5 uppercase hover:text-orange-400 text-xs font-semibold tracking-[2px]"
+                      href="./support.html"
+                      >LOGIN</a
                     >
                   </li>
                 </ul>
               </nav>
 
-              <button class="show-nav hidden text-3xl cursor-pointer">
+              <button
+                class="toggle_menu md:hidden text-[#fff] text-3xl cursor-pointer"
+              >
                 <i class="fa-solid fa-bars"></i>
               </button>
             </header>
+
+            <!-- mobile menu -->
+            <div
+              class="mobile_menu hidden z-[999] fixed w-[90%] md:hidden bg-[#00000080] text-center"
+            >
+              <ul class="md:flex">
+                <li class="py-2">
+                  <a
+                    class="uppercase active text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                    href="#"
+                    >Start</a
+                  >
+                </li>
+                <li class="py-2">
+                  <a
+                    class="py-2 uppercase text-xs font-semibold tracking-[2px] text-[rgb(255, 255, 255)]"
+                    href="./bestellen.html"
+                    >Bestellen</a
+                  >
+                </li>
+                <li class="py-2">
+                  <a
+                    class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                    href="#"
+                    >software</a
+                  >
+                </li>
+                <li class="py-2">
+                  <a
+                    class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                    href="#"
+                    >vavoo pro</a
+                  >
+                </li>
+                <li class="py-2">
+                  <a
+                    class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                    href="#"
+                    >support</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="px-5 uppercase text-xs font-semibold tracking-[2px]"
+                    href="./support.html"
+                    >LOGIN</a
+                  >
+                </li>
+              </ul>
+            </div>
             <div class="hero">
-              <div class="content mt-20 text-center">
+              <div class="content mt-[92px] text-center">
+                <br>
                 <h5
                   class="content_sub_title text-base text-[#fff] font-semibold tracking-[2px]"
                 >
                   VAVOO MACHT DAS LEBEN EINFACH.
                 </h5>
                 <h1
-                  class="main_title text-[43px] font-semibold text-[#fff] tracking-[2px]"
+                  class="main_title md:text-[43px] text-[20px] font-semibold text-[#fff] tracking-[2px]"
                 >
                   FILME & SERIEN
                   <br />
                   AM FERNSEHER GENIESSEN
                 </h1>
-                <div class="button flex flex-row justify-center text-[#fff]">
+                <div
+                  class="button mt-4 flex flex-col md:flex-row justify-center text-[#fff]"
+                >
                   <a
-                    class="border-2 uppercase py-2 px-5 text-[12px] font-semibold tracking-[2px] md:mr-5"
+                    class="border-2 text-white hover:bg-white hover:text-black  uppercase py-2 px-5 text-[12px] font-semibold tracking-[2px] mb-3 md:mb-0 md:mr-5"
                     href="#"
                     >Mehr erfahren</a
                   >
                   <a
-                    class="border-2 uppercase py-2 px-5 text-[12px] font-semibold tracking-[2px] text-[#000] bg-[#fff]"
+                    class="border-2 uppercase hover:bg-gray-300 rounded-sm py-2 px-5 text-[12px] font-semibold tracking-[2px] text-[#000] bg-[#fff]"
                     href="#"
                     >Bestellen</a
                   >
                 </div>
+                
+              
               </div>
             </div>
           </div>
@@ -113,7 +179,7 @@
     </section>
 
     <!-- VAVOO IST REVOLUTIONÄR section -->
-    <section class="container mx-auto mt-24">
+    <section class="container mx-auto mt-16 mb-10 mb-5">
       <h1
         class="px-4 text-[21px] text-main text-center font-semibold tracking-[4px] mb-7"
       >
@@ -135,6 +201,26 @@
         >
           <a href="#">Bestellen</a>
         </button>
+      </div>
+    </section>
+
+    <!-- tesimonials -->
+    <section class="py-5 relative">
+      <div class="tesimonals_bg">
+        <div class="testimonials_overly h-full bg-[#0000009e]">
+          <div class="testi text-center absolute">
+            <span class="text-[#fff]">
+              <i class="fa-solid text-5xl fa-quote-left"></i>
+            </span>
+            <p
+              class="tesimonials_des text-[#ddd] font-light text-base py-10 leading-6 tracking-[2px]"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, libero?
+            </p>
+            <span class="text-[#fff] font-semibold">Mamun Ethan</span>
+          </div>
+        </div>
       </div>
     </section>
 

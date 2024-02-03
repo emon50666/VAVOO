@@ -20,3 +20,51 @@ body {
 ul li a {
   color: #fff;
 }
+/* active color */
+.active{
+  color: orange;
+}
+
+
+.mobile_menu ul li {
+  border-bottom: 1px solid #ddd;
+}
+
+.tesimonals_bg {
+  background: url("./img/testimonials.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.testi {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add the 'fixed-header' class to make the header sticky */
+.fixed-header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  top: 0;
+}
+
+.fixed-header ul li a {
+  color: #323232;
+}
+.fixed-header .dark_logo {
+  display: block;
+}
+
+.fixed-header .light_logo {
+  display: none;
+}
+
+.fixed-header .toggle_menu {
+  color: #333;
+}
